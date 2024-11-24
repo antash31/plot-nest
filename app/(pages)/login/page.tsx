@@ -1,7 +1,12 @@
 import React from "react";
+import LoginDesktop from "./_components/LoginDesktop";
 
 const LoginPage = () => {
-  return <div className="text-5xl">This is the login page</div>;
+  return (
+    <div className="text-5xl">
+      <LoginDesktop />
+    </div>
+  );
 };
 
 export default LoginPage;
